@@ -1,0 +1,22 @@
+.customer {
+    position: absolute;
+    top:1%;
+    width: 47%;
+    height:100%;
+    visibility: hidden;
+    overflow: scroll;
+    border: 1px solid black;
+    white-space: pre;
+}
+
+.charge {
+    position: absolute;
+    left: 50%;
+    top:1%;
+    width: 47%;
+    height:100%;
+    visibility: hidden;
+    overflow: scroll;
+    border: 1px solid black;
+
+}

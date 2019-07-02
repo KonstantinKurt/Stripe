@@ -1,0 +1,25 @@
+<head>
+    <title>main page</title>
+    <script src="/scripts/start.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/start.css">
+    <style>body{background-color: #d3e4ff;}</style>
+</head>
+
+<body>
+<form style = "width:50%" id="form">
+    <div class="form-group">
+        <label for="amount">Enter amount</label>
+        <input type="number" class="form-control" id="amount"  placeholder="Enter amount">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button"  id = "payment" class="btn btn-success">Payment</button>
+</form>
+<div id = "customer" class="customer"></div>
+<div id = "charge" class="charge"></div>
+{{{body}}}
+</body>
